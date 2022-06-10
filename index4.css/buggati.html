@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official BUGATTI</title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <main>
+        <header>
+            <nav class="navigation">
+                <figure>
+                    <img class="logo" src="img/logo-bugatti.webp" alt="">
+                </figure>
+            </nav>
+            <section class="nav">
+                <span class="click">|||</span>
+                <nav class="menu">
+                    <span id="close">X</span>
+                    <ul>
+                        <li><a href="">MODEL</a></li>
+                        <li><a href="">BRAND</a></li>
+                        <li><a href="">OWNERSHIP</a></li>
+                        <li><a href="">LIFESTYLE</a></li>
+                        <li><a href="">COMPANY</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="partner">
+                <a href="">FIND A BUGATTI PARTNER</a>
+            </section>
+        </header>
+        <!-- end header -->
+        <section class="slide">
+            <figure>
+                <img src="img/buggatiC.webp" alt="">
+            </figure>
+            <section>
+                <h1>BUGATTI CHIRON</h1>
+                <h2>SUPER SPORT</h2>
+                <h5>THE ULTIMATE GRAND TOURISME,DELIVERING BRUTAL PERFORMANCEIN TOTAL COMFORT</h5>
+                 <div class="discover"><a href="">DISCOVER MORE</a></div>
+            </section>
+        </section>
+        <section>
+            <p>MODELS</p>
+            <section class="models">
+                <figure>
+                    <img src="img/models/imgLT.webp" alt="">
+                    <figcaption>ONE OFF MODELS</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/models/imgLB.webp" alt="">
+                    <figcaption>CONCEPT CARS</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/models/imgR.webp" alt="">
+                    <figcaption>CHIRON MODELS</figcaption>
+                </figure>
+            </section>
+        </section>
+        <p class="Buniverse">BUGATTI UNIVERSE</p>
+        <section class="lifestyle">
+            <figure>
+                <img src="img/lifestyle.webp" alt="">
+                <figcaption>LIFESTYLE</figcaption>
+            </figure>
+            <figure>
+                <img src="img/bggati partner.webp" alt="">
+                <figcaption>FIND A BUGATTI PARTNER</figcaption>
+            </figure>
+            <figure>
+                    <img src="img/career.webp" alt="">
+                    <figcaption>CAREER</figcaption>
+            </figure>
+        </section>
+        <p class="news">NEWS</p>
+        <section>
+            <figure class="bugatinews">
+                <img src="img/bugati news.webp" alt="">
+                <a href="">BUGATTI, THE MONACO GRAND PRIX AND LOUIS CHIRON-WRITING MOTOR RACING HISTORY</a>
+            </figure>
+        </section>
+    
+    <script>
+            document.getElementsByClassName('click')[0].addEventListener('click', function () {
+        document.getElementsByClassName('menu')[0].style.left='0'
+    })
+    document.getElementById('close').addEventListener('click', function(){
+        document.getElementsByClassName('menu')[0].style.left='-100%'
+    })
+    </script>
+    </main>
+</body>
+</html>
